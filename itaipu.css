@@ -1,0 +1,283 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.menu2{
+    position: fixed;
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #D7D7D7E0 0%, #FFFFFF00 100%);
+    width: 100%;
+    height: 150px;
+}
+.menu{
+
+    flex-wrap: wrap;
+    display: flex;
+    
+    
+    position: fixed;
+
+    padding-left: 50px;
+
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 27px;
+
+    background-color: white;
+
+    border-radius: 20px;
+
+    height: 110px;
+    width: 2400px;
+
+    
+}
+.o:hover{
+    color: red;
+}
+.p:hover{
+    color: green;
+}
+.pa:hover{
+    color: blue;
+}
+.e:hover{
+    color: orange;
+}
+.t:hover{
+    color: green;
+}
+.tr:hover{
+    color: blue;
+}
+
+.menu .bandeira img,.menu .bandeira2 img,.menu .bandeira3 img{
+    opacity: 0.8;
+    height: 24px;
+    width: 30px;
+}
+
+.menu .bandeira img:hover, .menu .bandeira2 img:hover, .menu .bandeira3 img:hover{
+    opacity: 100;
+}
+.menu .lupa img{
+    height: 24px;
+    width: 30px;
+    padding-left: 50px ;
+    padding-right: 50px;
+}
+.menu img{
+    width: 200px;
+    height: auto    ;
+}
+.guia{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+p{
+    padding-right: 30px;
+    padding-left: 70px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.video{
+    margin-top:120px;
+    object-fit: cover;
+    width: 1863px;
+    height: 900.94px
+}
+.conheca{
+    display: flex;
+    flex-direction: row ;
+}
+.conheca img{
+    
+    margin-left: 300px;
+    margin-top: 40px;
+    height: 335px;
+}
+.eco{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #2D2D2D;
+    margin-top: 60px;
+}
+button:hover{
+    background-color: green;
+}
+button{
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-style: normal;
+    text-decoration: none;
+    color: white;
+    background-color: #1478BD;
+    border: solid 0px;
+    margin-top: 50px;
+    margin-right: 00px;
+    height: 60px;
+    width: 300px;
+}
+.conecte{
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 100PX;
+    border-radius: 20px;
+    margin-left: 500px;
+    height: 200px;
+    width: 1400px;
+}
+.conecte img{
+    margin-left: 60px;
+    height: 120px;
+    width: 120px;
+}
+.conosco{
+    padding-right: 40px;
+    margin-right: 40px;
+    border-radius: 10px;
+    background-color: green;
+    width: 400px;
+    height: 70px;
+    justify-content: center;
+    display: flex;
+    
+}
+.destaquep{
+    margin-top: 80px;
+    font-size: 60px;
+}
+.destaque{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.destaque img{
+    
+    border-radius: 20px;
+    height: 900px;
+    width: 1700px;
+}
+.video2{
+    padding-right: 10px;
+    flex-direction: row;
+    margin-top: 100px;
+    display: flex;
+    border-radius: 20px;
+    padding-left: 0px;
+    object-fit: cover;
+   
+}
+.v{
+    font-size: 50px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+.video2 img{
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    object-fit: cover;
+    height: 400px;
+    width: 800px;
+    border-radius: 20px;
+}
+.rodape {
+    background-color: rgb(42, 90, 33);
+    width: 100%;
+    min-height: 500px;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+
+    padding: 80px 100px;
+    box-sizing: border-box;
+
+    color: white;
+}
+
+
+.logo-rodape {
+    width: 250px;
+}
+
+.logo-rodape img {
+    width: 150px;
+    height: auto;
+    margin: 0;
+}
+
+
+.sobrenos,
+.contatos,
+.governancia {
+    margin: 0;
+    padding: 0;
+    width: 250px;
+
+    background-color: transparent;
+}
+
+
+.rodape p {
+    padding: 0;
+    margin: 10px 0;
+
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.sobrenos p:first-child,
+.contatos p:first-child,
+.governancia p:first-child {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.redes {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+
+    width: 100%;
+    margin-top: 50px;
+}
+
+.redes img {
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    object-fit: contain;
+}
+
+
+.copy {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+
+    width: 100%;
+    margin: 40px 0 0 0;
+    padding-top: 25px;
+
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.copy p {
+    margin: 0;
+    font-size: 14px;
+}
